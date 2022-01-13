@@ -15,3 +15,5 @@
 -- +------+----------+
 
 
+SELECT year, count(*) from teams
+GROUP BY year;
